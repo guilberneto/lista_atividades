@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 100%;
+    min-width: 600px;
+    background-color: rgb(39, 42, 43);
+
+}
+
+.container_principal {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(145, 143, 141);
+
+}
+
+.container_principal>p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.tarefas_container>input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+.tarefas_container>button {
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+    font-weight: bold;
+}
