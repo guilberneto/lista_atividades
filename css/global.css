@@ -19,8 +19,35 @@ body {
     width: 500px;
     padding: 10px;
     background-color: rgb(145, 143, 141);
-
 }
+
+.titulo{
+display: flex;
+justify-content: center;
+}
+
+.formulario{
+display: flex;
+justify-content:center;
+}
+input{
+background-color:rgba(245, 245, 220, 0.37);
+border-radius: 10px;
+border: slateblue 2px solid ;
+width: 200px;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: auto 10px; 
+}
+button{
+display:flex; 
+border-radius: 10px;
+width:80px;
+justify-content: center;
+}
+
+/* cacelado 
 
 .container_principal>p {
     text-align: left;
@@ -28,15 +55,18 @@ body {
     margin-bottom: 20px;
 }
 
+ */
 
-
+ /*
 .tarefas_container>input {
     width: 400px;
     height: 30px;
     padding-left: 10px;
 
 }
+ */
 
+  /*
 .tarefas_container>button {
     width: 75px;
     height: 30px;
@@ -44,4 +74,5 @@ body {
     background-color: aquamarine;
     border: none;
     font-weight: bold;
-}
+} 
+     */
