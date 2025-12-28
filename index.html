@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto To Do List</title>
 <link rel="stylesheet" href="css/global.css">
-<title>PROJETO TO DO LIST</title>
 </head>
 
 <body>
 
-<div class="container_principal"> <!-----  ---- conteiner pricipal  ---     -->
-  
- <h1 class="titulo">
-  LISTA DE TAREFAS
-      </h1>
+<div class="container_principal">
 
- <!-----  ---- inicio form---     -->
+<h1 class="titulo">Lista de Tarefas</h1>
+
 <form class="formulario">
-<input type="text"
- placeholder="Adiconar Atividade" >
-<button> Adicionar</button>
-</form>
-<!---     --- Fim form ----      ------>
+        <input 
+            type="text" 
+            id="inputTarefa"
+            placeholder="Adicionar atividade"
+        >
+        <button type="submit">Adicionar</button>
+    </form>
 
-<ul id="tarefa">
-<h1>
- Resultado</h1>
-</ul>
- 
-</div>  
+    <h2 class="resultado">Resultado</h2>
 
+    <ul class="lista" id="listaTarefas">
 
+    </ul>
 
+</div>
+
+<script src="script.js"></script>
 </body>
-
 </html>
